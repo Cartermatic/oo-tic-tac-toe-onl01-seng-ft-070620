@@ -79,8 +79,12 @@ class TicTacToe
   end
   
   def won?
-    if !@board.include?(WIN_COMBINATIONS)
-      return false || nil 
+    WIN_COMBINATIONS.detect do |win_cond|
+      if @board[win_cond][0] == "X" && @board[win_cond][1] == "X" && @board[win_cond][2] == "X"
+        win_cond
+      end
+    end
+  end
   
   
   
