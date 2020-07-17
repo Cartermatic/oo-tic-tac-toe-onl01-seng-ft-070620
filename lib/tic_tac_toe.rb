@@ -103,4 +103,12 @@ class TicTacToe
     won? || full?
   end
   
+  def winner
+    won?
+    "X"
+    won?
+    "O"
+  end
+  
+  
 end
