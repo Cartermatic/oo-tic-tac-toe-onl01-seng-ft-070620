@@ -104,10 +104,10 @@ class TicTacToe
   end
   
   def winner
-    won?
-    "X"
-    won?
-    "O"
+   if won?
+    "X" || "O"
+  else
+    nil
   end
   
   
