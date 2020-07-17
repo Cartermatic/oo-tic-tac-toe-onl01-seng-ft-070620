@@ -85,7 +85,8 @@ class TicTacToe
     WIN_COMBINATIONS.detect do |win_cond|
       if @board[win_cond[0]] == "X" && @board[win_cond[1]] == "X" && @board[win_cond[2]] == "X"
         win_cond
-        binding.pry
+      elsif @board[win_cond[0]] == "O" && @board[win_cond[1]] == "O" && @board[win_cond[2]] == "O"
+      win_cond
       end
     end
   end
