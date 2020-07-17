@@ -92,7 +92,7 @@ class TicTacToe
   end
   
   def full?
-    @board.all?{|filled| filled !== nil}
+    @board.all?{|filled| filled != nil}
   end
   
 end
