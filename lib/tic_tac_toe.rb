@@ -4,7 +4,7 @@ class TicTacToe
   
   
   WIN_COMBINATIONS = [
-   [0,1,2],
+  [0,1,2],
    [3,4,5],
    [6,7,8],
    [0,3,6],
@@ -83,7 +83,7 @@ class TicTacToe
   
   def won?
     WIN_COMBINATIONS.detect do |win_cond|
-      if @board[win_cond][0] == "X" && @board[win_cond][1] == "X" && @board[win_cond][2] == "X"
+      if @board[win_cond[0]] == "X" && @board[win_cond[1]] == "X" && @board[win_cond[2]] == "X"
         win_cond
         binding.pry
       end
