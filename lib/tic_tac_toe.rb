@@ -1,4 +1,7 @@
+require 'pry'
+
 class TicTacToe
+  
   
   WIN_COMBINATIONS = [
    [0,1,2],
@@ -82,6 +85,7 @@ class TicTacToe
     WIN_COMBINATIONS.detect do |win_cond|
       if @board[win_cond][0] == "X" && @board[win_cond][1] == "X" && @board[win_cond][2] == "X"
         win_cond
+        binding.pry
       end
     end
   end
