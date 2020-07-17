@@ -95,4 +95,7 @@ class TicTacToe
     @board.all?{|filled| filled != " "}
   end
   
+  def draw?
+    
+  
 end
