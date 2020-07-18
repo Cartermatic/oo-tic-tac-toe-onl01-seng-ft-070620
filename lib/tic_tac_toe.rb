@@ -115,7 +115,16 @@ class TicTacToe
     until over?
     turn
     end
-end
+    if won?
+      puts "FINALLY, YOU ARE A #{winner}"
+    else
+    
+    
+    
+    
+    
+    
+  end
     
   
 
