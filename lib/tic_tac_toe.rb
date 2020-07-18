@@ -108,7 +108,7 @@ class TicTacToe
     if won?
       @board[won?[0]]
     else
-      return nil
+      nil
     end
   end
     
