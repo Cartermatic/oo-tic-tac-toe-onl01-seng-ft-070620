@@ -105,9 +105,9 @@ class TicTacToe
   
   def winner
    if @board[win_cond[0]] == "X" && @board[win_cond[1]] == "X" && @board[win_cond[2]] == "X"
-        win_cond
+        return "X"
       elsif @board[win_cond[0]] == "O" && @board[win_cond[1]] == "O" && @board[win_cond[2]] == "O"
-      win_cond
+      return "O"
       end
     end
   end
