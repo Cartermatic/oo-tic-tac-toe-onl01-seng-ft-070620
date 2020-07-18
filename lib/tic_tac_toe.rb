@@ -104,7 +104,7 @@ class TicTacToe
   end
   
   def winner
-   won?
+   won?   # [0,1,2]
    "X"
    won?
    "O"
