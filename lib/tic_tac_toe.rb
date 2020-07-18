@@ -108,9 +108,9 @@ class TicTacToe
         return "X"
       elsif @board[win_cond[0]] == "O" && @board[win_cond[1]] == "O" && @board[win_cond[2]] == "O"
       return "O"
-      end
     end
   end
+  
   
   
 end
