@@ -117,14 +117,16 @@ class TicTacToe
     end
     if won?
       puts "FINALLY, YOU ARE A #{winner}"
-    else
-    
-    
-    
-    
-    
-    
+    elsif draw?
+      puts "It ended in a draw"
+    end
   end
+    
+    
+    
+    
+    
+
     
   
 
